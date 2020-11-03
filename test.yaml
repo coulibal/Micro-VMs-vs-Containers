@@ -10,9 +10,6 @@ spec:
   image:
     ociClaim:
       ref: weaveworks/ignite-ubuntu:latest
-  kernel:
-    ociClaim:
-      ref: weaveworks/ignite-kernel:4.19.47
   ssh: true
 status:
   state: Created
