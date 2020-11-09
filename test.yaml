@@ -1,7 +1,7 @@
-apiVersion: ignite.weave.works/v1alpha1
+apiVersion: ignite.weave.works/v1alpha3
 kind: VM
 metadata:
-  name: my-vm
+  name: smoke
   uid: "2855c3554cd12be8"
 spec:
   cpus: 2
