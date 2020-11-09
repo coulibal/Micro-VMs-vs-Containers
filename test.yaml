@@ -2,7 +2,7 @@ apiVersion: ignite.weave.works/v1alpha1
 kind: VM
 metadata:
   name: my-vm
-  uid: "5121287c6564adee"
+  uid: "599615df99804ae8"
 spec:
   cpus: 2
   diskSize: 4GB
