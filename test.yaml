@@ -2,7 +2,7 @@ apiVersion: ignite.weave.works/v1alpha1
 kind: VM
 metadata:
   name: smoke
-  uid: $(uuidgen)
+  uid: d039cbcd-3606-462d-839e-25ac745cd7c5
 spec:
   cpus: 2
   diskSize: 4GB
