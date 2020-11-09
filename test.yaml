@@ -1,15 +1,15 @@
-apiVersion: ignite.weave.works/v1alpha3
+apiVersion: ignite.weave.works/v1alpha1
 kind: VM
 metadata:
   name: smoke
-  uid: "2855c3554cd12be8"
+  uid: $(uuidgen)
 spec:
   cpus: 2
   diskSize: 4GB
   memory: 1GB
   image:
-    ociClaim:
-      ref: weaveworks/ignite-ubuntu:latest
+    oci:
+      ref: weaveworks/ignite-ubuntu
   ssh: true
 status:
   state: Created
